@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 3%;
+    padding: 2%;
+    width: 70%;
+    min-height: 70vh;
+    border: 0.2vh solid rgb(162, 161, 161);
+    border-radius: 10px;
+    background-color: rgba(152, 198, 180, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-control {
+    width: 94%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.btn-form {
+    flex-basis: 9%;
+    min-height: 2rem;
+    border: 0.2vh solid rgb(119, 117, 117);
+    border-left: 0px;
+    border-radius: 0px 3px 3px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(119, 117, 117);
+    color: #ffffffff;
+}
+
+.input {
+    outline: none;
+    flex-grow: 1;
+    border: 0.2vh solid rgb(162, 161, 161);
+    border-radius: 3px 0px 0px 3px;
+    border-right: 0px;
+    letter-spacing: 1px;
+    padding-left: 2%;
+    margin-right: 0px;
+}
+
+.btn-form:hover,
+.input:focus {
+    box-shadow: 2px 2px 4px #6c97a3;
+}
+.btn-form:active{
+  background-color: rgb(83, 81, 81);;
+}
+
+.form-check {
+    width: 94%;
+    margin-top: 1%;
+}
+
+.form-tags {
+    width: 94%;
+    margin: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border: 0.2vh solid rgb(162, 161, 161);
+    border-radius: 10px;
+    background-color: #ffffffff;
+}
+
+#tag {
+    flex-basis: 16%;
+    margin: 3%;
+    min-height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border: 0.1vh solid rgb(162, 161, 161);
+    border-radius: 5px;
+    background-color: #d3f4ff
+}
+
+.noselect {
+    color: #555;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.max-size-tag {
+    max-width: 70%;
+    align-self: center;
+    margin-left: 5%;
+}
+
+.btn-close-tag {
+    flex-basis: 16%;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    background-color: #006c7a;
+    color:#fff;
+    font-weight: bolder;
+}
+
+#tag:hover {
+  box-shadow: 2px 2px 4px #6c97a3;
+}
+
+.btn-close-tag:active {
+  background-color: #00505b;
+}
