@@ -29,6 +29,9 @@ body {
     border: 0.2vh solid rgb(119, 117, 117);
     border-left: 0px;
     border-radius: 0px 3px 3px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,6 +47,7 @@ body {
     border-radius: 3px 0px 0px 3px;
     border-right: 0px;
     letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
     padding-left: 2%;
     margin-right: 0px;
 }
@@ -59,6 +63,7 @@ body {
 .form-check {
     width: 94%;
     margin-top: 1%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .form-tags {
@@ -73,10 +78,11 @@ body {
     background-color: #ffffffff;
 }
 
-#tag {
-    flex-basis: 16%;
+.tag {
+    flex-basis: 25%;
     margin: 3%;
-    min-height: 10%;
+    max-width: 25%;
+    min-height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -99,21 +105,35 @@ body {
     max-width: 70%;
     align-self: center;
     margin-left: 5%;
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .btn-close-tag {
     flex-basis: 16%;
+    margin: 0px;
     border: none;
     border-radius: 0px 4px 4px 0px;
     background-color: #006c7a;
+    box-shadow: -5px 0px 10px 0px #aaa;
     color:#fff;
     font-weight: bolder;
 }
 
-#tag:hover {
+.tag:hover {
   box-shadow: 2px 2px 4px #6c97a3;
 }
 
 .btn-close-tag:active {
   background-color: #00505b;
+}
+
+.tickets-empty-res-msg{
+    align-self: center;
+    margin: 5%;
+    font-size:larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    opacity: 0.2;
 }
