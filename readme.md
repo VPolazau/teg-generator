@@ -1,5 +1,7 @@
 # TEG-GENERATOR
 
+deploy: https://vpolazau.github.io/teg-generator/src/index.html
+
 ## Тестовое задание
 
 Нужно написать компонент для создания тегов, где у нас:
